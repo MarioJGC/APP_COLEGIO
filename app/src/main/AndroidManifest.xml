@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ExamenFInal"
+        tools:targetApi="31"
+
+        android:networkSecurityConfig="@xml/network_security_config"
+
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".ListaAsistencia"
+            android:exported="false" />
+
+        <activity
+            android:name=".SeccionesCodigosProfesor"
+            android:exported="false" />
+
+        <activity
+            android:name=".ActividadesProfesor"
+            android:exported="false" />
+        <activity
+            android:name=".SeccionesProfesor"
+            android:exported="false" />
+        <activity
+            android:name=".AsignaturasProfesor"
+            android:exported="false" />
+        <activity
+            android:name=".CodigoAsistencia"
+            android:exported="false" />
+        <activity
+            android:name=".MenuProfesor"
+            android:exported="false" />
+        <activity
+            android:name=".AgregarEntrega"
+            android:exported="false" />
+        <activity
+            android:name=".ActividadEstudiante"
+            android:exported="false" />
+        <activity
+            android:name=".CursoEstudiante"
+            android:exported="false" />
+        <activity
+            android:name=".MenuEstudiante"
+            android:exported="false" />
+        <activity
+            android:name=".Opciones"
+            android:exported="false" />
+        <activity
+            android:name=".Ingresar"
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name=".Splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    android:orientation="vertical"
+    tools:context=".ActividadesProfesor">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:text="@string/titulo_actividades"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="@string/titulo_actividade1"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:layout_marginTop="50dp"
+        ></TextView>
+
+    <EditText
+        android:layout_width="332dp"
+        android:id="@+id/edtTitulo"
+        android:layout_marginTop="10dp"
+        android:layout_height="43dp"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        ></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="@string/descripcion"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        ></TextView>
+
+    <EditText
+        android:layout_width="332dp"
+        android:textColor="@color/black"
+        android:layout_height="43dp"
+        android:id="@+id/edtDescripcion"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:layout_gravity="center"
+        ></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="@string/indicaciones"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        ></TextView>
+
+
+    <EditText
+        android:id="@+id/edtIndicaciones"
+        android:layout_width="332dp"
+        android:layout_height="73dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="@string/plazo_entrega"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        ></TextView>
+
+    <EditText
+        android:layout_width="332dp"
+        android:layout_height="43dp"
+        android:id="@+id/edtPlazo"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        ></EditText>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:id="@+id/btnCrear"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#000000"
+        android:text="@string/Crear_actividad"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        app:cornerRadius="30dp"></Button>
+
+
+</LinearLayout>

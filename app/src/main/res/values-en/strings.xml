@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FinalExam</string>
+    <string name="spntipousuario">UserType</string>
+    <string name="actividad_profesor_titulo">Title</string>
+    <string name="actividad_profesor_descripcion">Description</string>
+    <string name="actividad_profesor_indicacion">Instructions</string>
+    <string name="Crear_actividad">Create Activity</string>
+    <string name="titulo_actividades">Activity</string>
+    <string name="titulo_actividade">Title</string>
+    <string name="descripcion">Description:</string>
+    <string name="indicaciones">Instructions:</string>
+    <string name="plazo_entrega">Deadline:</string>
+    <string name="titulo_actividade1">Title:</string>
+    <string name="Entrar">Enter</string>
+    <string name="Asistencia">Attendance</string>
+    <string name="Buscar">Search</string>
+    <string name="Fecha">Date:</string>
+    <string name="Seccion">Section:</string>
+    <string name="Asignaturas">Subjects</string>
+    <string name="sacan">SCAN QR</string>
+    <string name="Estudiante">Student</string>
+    <string name="reg">Register Attendance</string>
+    <string name="Profe">Teacher</string>
+    <string name="ListaAsistencia">Attendance List</string>
+    <string name="colo">Font Color:</string>
+    <string name="Idioma">Language:</string>
+    <string name="Valorar">Rate the app:</string>
+    <string name="Enviar">Send</string>
+    <string name="bienvenido">Welcome</string>
+    <string name="cursos">COURSES</string>
+    <string name="Scan">Scan QR</string>
+</resources>

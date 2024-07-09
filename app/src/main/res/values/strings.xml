@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ExamenFInal</string>
+    <string name="spntipousuario">TipoUsuario</string>
+    <string name="actividad_profesor_titulo">Titulo</string>
+    <string name="actividad_profesor_descripcion">Descripcion</string>
+    <string name="actividad_profesor_indicacion">Indicaciones</string>
+    <string name="Crear_actividad">Crear Actividad</string>
+    <string name="titulo_actividades">Actividad</string>
+    <string name="titulo_actividade">Titulo</string>
+    <string name="descripcion">Descripción:</string>
+    <string name="indicaciones">Indicaciones:</string>
+    <string name="plazo_entrega">Plazo de Entrega:</string>
+    <string name="titulo_actividade1">Titulo:</string>
+    <string name="Entrar">Entrar</string>
+    <string name="Asistencia">Asistencia</string>
+    <string name="Buscar">Buscar</string>
+    <string name="Fecha">Fecha:</string>
+    <string name="Seccion">Seccion:</string>
+    <string name="Asignaturas">Asignaturas</string>
+    <string name="sacan">SCAN QR</string>
+    <string name="Estudiante">Estudiante</string>
+    <string name="reg">Registrar asistencia</string>
+    <string name="Profe">Profesor</string>
+    <string name="ListaAsistencia">Lista Asistencia</string>
+    <string name="colo">Color fuente:</string>
+    <string name="Idioma">Idioma:</string>
+    <string name="Valorar">Valorar app:</string>
+    <string name="Enviar">Enviar</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="cursos">CURSOS</string>
+    <string name="Scan">Scanear QR</string>
+
+</resources>
